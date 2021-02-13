@@ -1,3 +1,49 @@
 body {
-    background-image: url(./ressources/images/backgrounds-mountains.jpg);
+    text-align: center;
+}
+h1 {
+    font-family: 'Fira Code';
+    font-size: 4em;
+    font-weight: 700;
+    margin: 20px auto;
+}
+
+h2 {
+    font-family: 'Fira Code';
+    font-size: 3em;
+    font-weight: 550;
+}
+
+h3 {
+    font-family: 'Fira Code';
+    font-size: 2em;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Robot Mono';
+    font-size: 1em;
+    font-weight: 500;
+}
+
+#navi {
+    font-family: 'Robot Mono';
+    font-size: 1.5em;
+    padding: 0.5rem;
+}
+
+#navi ul {
+    margin-block-start: 0.25em;
+}
+#navi li {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-left: 20px;
+    background-color: hsla(360, 100%, 32%, 1);
+    border-radius: 0.5em;
+}
+
+#navi a {
+    color: white;
 }

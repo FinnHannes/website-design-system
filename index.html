@@ -14,47 +14,52 @@
                     <li><a href="#Text Styles">Text Styles</a></li>
                 </ul>
             </nav>
-            <h1>My Website Design System</h1>
+            <h1 id="main-heading">My Website Design System</h1>
         </header>
         <main class="main-content">
-            <section id="colors">
-                <h2>Colors</h2>
-                <p>Choose the right style for the desired position.</p>
-                <div>
-                    <h3>Text box style 1:</h3>
-                    <p>Background-color: green something --> hsla()</p>
-                    <p>Color: white</p>
-                </div>
-                <div>
-                    <h3>Text box style 2:</h3>
-                    <p>Background-color: blue something</p>
-                    <p>Color: white</p>
-                </div>
-                <div>
-                    <h3>Text box style 3:</h3>
-                    <p>Background-color: burgundy</p>
-                    <p>Color: white</p>
-                </div>
-            </section>
-            <section id="fonts">
-                <h2>Fonts</h2>
-                <div>
-                    <h3>Fira Code</h3>
-                    <p>This font-family should be used for headings.</p>
-                    <p>Examples:</p>
-                    <p class="regular fira-code">I like ice cream - everyone likes ice cream!</p>
-                    <p class="bold fira-code">I like ice cream - everyone likes ice cream!</p>
-                    <p class="italic fira-code">I like ice cream - everyone likes ice cream!</p>
-                </div>
-                <div>
-                    <h3>Robot Mono</h3>
-                    <p>This font-family should be used for paragraphs and navigation.</p>
-                    <p>Examples:</p>
-                    <p class="regular robot-mono">I like ice cream - everyone likes ice cream!</p>
-                    <p class="bold robot-mono">I like ice cream - everyone likes ice cream!</p>
-                    <p class="italic robot-mono">I like ice cream - everyone likes ice cream!</p>
-                </div>
-            </section>
+            <div id="background">
+                <section id="colors">
+                    <h2>Colors</h2>
+                    <p>Choose the right style for the desired position.</p>
+                    <div class="container" id="color-one">
+                        <h3>Text box style 1:</h3>
+                        <p>green something</p>
+                        <p>hsla(124, 89%, 28%, 1)</p>
+                        <p>Color: black</p>
+                    </div>
+                    <div class="container" id="color-two">
+                        <h3>Text box style 2:</h3>
+                        <p>blue something</p>
+                        <p>hsla(272, 89%, 28%, 1)</p>
+                        <p>Color: black</p>
+                    </div>
+                    <div class="container" id="color-three">
+                        <h3>Text box style 3:</h3>
+                        <p>burgundy something</p>
+                        <p>hsla(356, 89%, 28%, 1)</p>
+                        <p>Color: black</p>
+                    </div>
+                </section>
+                <section id="fonts">
+                    <h2 class="color-fonts">Fonts</h2>
+                    <div class="container">
+                        <h3>Fira Code</h3>
+                        <p>This font-family should be used for headings.</p>
+                        <p>Examples:</p>
+                        <p class="regular fira-code">I like ice cream - everyone likes ice cream!</p>
+                        <p class="bold fira-code">I like ice cream - everyone likes ice cream!</p>
+                        <p class="italic fira-code">I like ice cream - everyone likes ice cream!</p>
+                    </div>
+                    <div class="container">
+                        <h3>Robot Mono</h3>
+                        <p>This font-family should be used for paragraphs and navigation.</p>
+                        <p>Examples:</p>
+                        <p class="regular robot-mono">I like ice cream - everyone likes ice cream!</p>
+                        <p class="bold robot-mono">I like ice cream - everyone likes ice cream!</p>
+                        <p class="italic robot-mono">I like ice cream - everyone likes ice cream!</p>
+                    </div>
+                </section>
+            </div>
             <section id="text styles">
                 <h2>Text Styles</h2>
                 <div>
@@ -77,7 +82,7 @@
                     <h3>H3: Section subheading </h3>
                     <ul>
                         <li>Font-weigt: 500 (bold)</li>
-                        <li>Font-size: 18px</li>
+                        <li>Font-size: 15px</li>
                         <li>Font-family: Fira Code</li>
                     </ul>
                 </div>
@@ -92,7 +97,7 @@
             </section>
         </main>
         <footer>
-            
+            <p>only for desktop browser --> no responsive design</p>
         </footer>
     </body>
 </html>

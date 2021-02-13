@@ -12,6 +12,8 @@ h2 {
     font-family: 'Fira Code';
     font-size: 3em;
     font-weight: 550;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
 }
 
 h3 {
@@ -22,8 +24,16 @@ h3 {
 
 p {
     font-family: 'Robot Mono';
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 500;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+#main-heading {
+    text-decoration: underline;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.8em;
 }
 
 #navi {
@@ -47,3 +57,35 @@ p {
 #navi a {
     color: white;
 }
+
+#background {
+    background-image: url(../images/backgrounds-mountains.jpg);
+    background-size: 100% auto; 
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 0.7em;
+    width: 28%;
+    height: 260px;
+}
+
+#color-one {
+    background-color: hsla(124, 89%, 28%, 1);
+}
+
+#color-two {
+    background-color: hsla(272, 89%, 28%, 1);
+}
+
+#color-three {
+    background-color: hsla(356, 89%, 28%, 1);
+}
+
+.color-fonts {
+    color: white;
+}
+
